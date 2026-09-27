@@ -1,1 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Wilma Figueroa | Financial Services</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8fa;
+  color: #173b2e;
+  line-height: 1.6;
+}
+
+nav {
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo small {
+  display: block;
+  color: #d58c9e;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #173b2e;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  padding: 70px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  align-items: center;
+  background: #f7e8eb;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.tag {
+  color: #d58c9e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 55px;
+  line-height: 1.1;
+  margin: 15px 0;
+  color: #173b2e;
+}
+
+h1 span {
+  color: #d58c9e;
+}
+
+p {
+  color: #596860;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #173b2e;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 70px 8%;
+}
+
+.title {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  margin: 10px 0;
+  color: #173b2e;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #edd8de;
+  box-shadow: 0 8px 25px #173b2e10;
+}
+
+.card h3 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.number {
+  color: #d58c9e;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.why {
+  background: #173b2e;
+  color: white;
+}
+
+.why h2 {
+  color: white;
+}
+
+.why p {
+  color: #dbe7e1;
+}
+
+.contact {
+  background: #f7e8eb;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+footer {
+  background: #102a21;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media (max-width: 750px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 45px 6%;
+  }
+
+  .hero img {
+    order: -1;
+  }
+
+  h1 {
+    font-size: 43px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  section {
+    padding: 55px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">
+    Wilma Figueroa
+    <small>FINANCIAL SERVICES</small>
+  </div>
+
+  <div>
+    <a href="#about">About</a>
+    <a href="#opportunity">Opportunity</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+
+  <div>
+    <div class="tag">Your future. Your direction.</div>
+
+    <h1>
+      Build a future
+      <span>that feels like yours.</span>
+    </h1>
+
+    <p>
+      Explore an opportunity to learn, grow, and create new possibilities
+      while building around the life you already have.
+    </p>
+
+    <a class="btn" href="#contact">Let's Connect</a>
+  </div>
+
+  <div>
+    <h2 style="text-align:center;">Wilma Figueroa</h2>
+    <p style="text-align:center;">
+      Financial Services & Opportunities
+    </p>
+  </div>
+
+</section>
+
+<section id="about">
+
+  <div class="title">
+    <div class="tag">Meet Wilma</div>
+
+    <h2>A new way to think about your future.</h2>
+
+    <p>
+      Wilma Figueroa is passionate about helping people discover
+      opportunities for personal and professional growth.
+    </p>
+  </div>
+
+</section>
+
+<section id="opportunity">
+
+  <div class="title">
+    <div class="tag">Explore Your Options</div>
+
+    <h2>There is room to grow.</h2>
+
+    <p>
+      Take the first step and learn what this opportunity could look like
+      for you.
+    </p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="number">01</div>
+      <h3>Part-Time</h3>
+      <p>
+        Build around your current schedule while learning new skills
+        and exploring the business.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="number">02</div>
+      <h3>Full-Time</h3>
+      <p>
+        Create a bigger commitment toward your professional and
+        personal goals.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="number">03</div>
+      <h3>Learn & Grow</h3>
+      <p>
+        Develop new skills, connect with others, and continue
+        building your experience.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="why">
+
+  <div class="title">
+    <div class="tag">Why Explore It?</div>
+
+    <h2>Growth starts with one decision.</h2>
+
+    <p>
+      Discover an environment focused on learning, flexibility,
+      support, and development.
+    </p>
+  </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+  <div class="title">
+    <div class="tag">Take The Next Step</div>
+
+    <h2>Let's start a conversation.</h2>
+
+    <p>
+      Fill out the form below and Wilma can connect with you.
+    </p>
+  </div>
+
+  <form name="wilma-contact" method="POST" data-netlify="true">
+
+    <input type="hidden" name="form-name" value="wilma-contact">
+
+    <input
+      name="name"
+      placeholder="Your Name"
+      required
+    >
+
+    <input
+      name="email"
+      type="email"
+      placeholder="Email Address"
+      required
+    >
+
+    <input
+      name="phone"
+      placeholder="Phone Number"
+    >
+
+    <select name="interest">
+      <option>I'm interested in...</option>
+      <option>Part-Time Opportunity</option>
+      <option>Full-Time Opportunity</option>
+      <option>Learning More</option>
+    </select>
+
+    <textarea
+      name="message"
+      placeholder="Tell Wilma a little about what you're looking for..."
+    ></textarea>
+
+    <button class="btn" type="submit">
+      Send Message
+    </button>
+
+  </form>
+
+</section>
+
+<footer>
+  <strong>Wilma Figueroa</strong> · Financial Services
+  <br>
+  © 2026 All Rights Reserved.
+</footer>
+
+</body>
+  </html>

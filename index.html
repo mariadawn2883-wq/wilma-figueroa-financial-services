@@ -26,6 +26,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 12px #0001;
 }
 
 .logo {
@@ -57,6 +61,7 @@ nav a {
 
 .hero img {
   width: 100%;
+  display: block;
   border-radius: 25px;
 }
 
@@ -193,6 +198,7 @@ footer {
 }
 
 @media (max-width: 750px) {
+
   .hero {
     grid-template-columns: 1fr;
     padding: 45px 6%;
@@ -224,6 +230,7 @@ footer {
 <body>
 
 <nav>
+
   <div class="logo">
     Wilma Figueroa
     <small>FINANCIAL SERVICES</small>
@@ -234,12 +241,17 @@ footer {
     <a href="#opportunity">Opportunity</a>
     <a href="#contact">Contact</a>
   </div>
+
 </nav>
+
 
 <section class="hero">
 
   <div>
-    <div class="tag">Your future. Your direction.</div>
+
+    <div class="tag">
+      Your Future. Your Direction.
+    </div>
 
     <h1>
       Build a future
@@ -251,109 +263,179 @@ footer {
       while building around the life you already have.
     </p>
 
-    <a class="btn" href="#contact">Let's Connect</a>
+    <a class="btn" href="#contact">
+      Let's Connect
+    </a>
+
   </div>
 
+
   <div>
-    <h2 style="text-align:center;">Wilma Figueroa</h2>
-    <p style="text-align:center;">
-      Financial Services & Opportunities
-    </p>
+
+    <img
+      src="file_00000000fd5081f5a0708bf3af20abf2.png"
+      alt="Wilma Figueroa"
+    >
+
   </div>
 
 </section>
 
+
 <section id="about">
 
   <div class="title">
-    <div class="tag">Meet Wilma</div>
 
-    <h2>A new way to think about your future.</h2>
+    <div class="tag">
+      Meet Wilma
+    </div>
+
+    <h2>
+      A new way to think about your future.
+    </h2>
 
     <p>
       Wilma Figueroa is passionate about helping people discover
       opportunities for personal and professional growth.
     </p>
+
   </div>
 
 </section>
 
+
 <section id="opportunity">
 
   <div class="title">
-    <div class="tag">Explore Your Options</div>
 
-    <h2>There is room to grow.</h2>
+    <div class="tag">
+      Explore Your Options
+    </div>
+
+    <h2>
+      There is room to grow.
+    </h2>
 
     <p>
       Take the first step and learn what this opportunity could look like
       for you.
     </p>
+
   </div>
+
 
   <div class="cards">
 
     <div class="card">
-      <div class="number">01</div>
-      <h3>Part-Time</h3>
+
+      <div class="number">
+        01
+      </div>
+
+      <h3>
+        Part-Time
+      </h3>
+
       <p>
         Build around your current schedule while learning new skills
         and exploring the business.
       </p>
+
     </div>
 
+
     <div class="card">
-      <div class="number">02</div>
-      <h3>Full-Time</h3>
+
+      <div class="number">
+        02
+      </div>
+
+      <h3>
+        Full-Time
+      </h3>
+
       <p>
-        Create a bigger commitment toward your professional and
-        personal goals.
+        Create a bigger commitment toward your professional
+        and personal goals.
       </p>
+
     </div>
 
+
     <div class="card">
-      <div class="number">03</div>
-      <h3>Learn & Grow</h3>
+
+      <div class="number">
+        03
+      </div>
+
+      <h3>
+        Learn & Grow
+      </h3>
+
       <p>
         Develop new skills, connect with others, and continue
         building your experience.
       </p>
+
     </div>
 
   </div>
 
 </section>
 
+
 <section class="why">
 
   <div class="title">
-    <div class="tag">Why Explore It?</div>
 
-    <h2>Growth starts with one decision.</h2>
+    <div class="tag">
+      Why Explore It?
+    </div>
+
+    <h2>
+      Growth starts with one decision.
+    </h2>
 
     <p>
       Discover an environment focused on learning, flexibility,
       support, and development.
     </p>
+
   </div>
 
 </section>
 
+
 <section class="contact" id="contact">
 
   <div class="title">
-    <div class="tag">Take The Next Step</div>
 
-    <h2>Let's start a conversation.</h2>
+    <div class="tag">
+      Take The Next Step
+    </div>
+
+    <h2>
+      Let's start a conversation.
+    </h2>
 
     <p>
       Fill out the form below and Wilma can connect with you.
     </p>
+
   </div>
 
-  <form name="wilma-contact" method="POST" data-netlify="true">
 
-    <input type="hidden" name="form-name" value="wilma-contact">
+  <form
+    name="wilma-contact"
+    method="POST"
+    data-netlify="true"
+  >
+
+    <input
+      type="hidden"
+      name="form-name"
+      value="wilma-contact"
+    >
 
     <input
       name="name"
@@ -374,10 +456,23 @@ footer {
     >
 
     <select name="interest">
-      <option>I'm interested in...</option>
-      <option>Part-Time Opportunity</option>
-      <option>Full-Time Opportunity</option>
-      <option>Learning More</option>
+
+      <option>
+        I'm interested in...
+      </option>
+
+      <option>
+        Part-Time Opportunity
+      </option>
+
+      <option>
+        Full-Time Opportunity
+      </option>
+
+      <option>
+        Learning More
+      </option>
+
     </select>
 
     <textarea
@@ -385,7 +480,10 @@ footer {
       placeholder="Tell Wilma a little about what you're looking for..."
     ></textarea>
 
-    <button class="btn" type="submit">
+    <button
+      class="btn"
+      type="submit"
+    >
       Send Message
     </button>
 
@@ -393,11 +491,20 @@ footer {
 
 </section>
 
+
 <footer>
-  <strong>Wilma Figueroa</strong> · Financial Services
+
+  <strong>
+    Wilma Figueroa
+  </strong>
+
+  · Financial Services
+
   <br>
+
   © 2026 All Rights Reserved.
+
 </footer>
 
 </body>
-  </html>
+</html>
